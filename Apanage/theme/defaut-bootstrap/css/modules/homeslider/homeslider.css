@@ -32,6 +32,8 @@
     position: absolute;
     left: 0;
     top: 0;
+    color: #fff;
+    text-shadow: 2px 2px 3px #6e8fb2;
     padding: 50px 50px;
     cursor: pointer; }
     #homepage-slider .homeslider-description h2 {
@@ -78,6 +80,7 @@
     margin-top: 0px;
     font-size: 1em;
     bottom: 10px;
+    background-color: #3973b2;
     outline: 0;
     width: 52px;
     height: 52px;
@@ -101,7 +104,7 @@
       display: block;
       width: 48px;
       height: 48px;
-      color: #fff;
+      color: #ffc869;
       text-indent: 0;
       text-align: center;
       font-size: 21px;
@@ -111,9 +114,10 @@
       left: 0;
       z-index: 2;
       padding: 16px 0 0 0; }
-    #homepage-slider .bx-wrapper .bx-controls-direction a:hover:before {
-      background: #333;
-      opacity: 0.83; }
+    #homepage-slider .bx-wrapper .bx-controls-direction a:hover:after{
+      background-color: #ffc869;
+      color: #3973b2;
+    }
   #homepage-slider .bx-wrapper .bx-prev {
     right: 60px;
     left: auto; }
