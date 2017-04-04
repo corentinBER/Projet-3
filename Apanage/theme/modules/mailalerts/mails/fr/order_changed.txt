@@ -3,7 +3,7 @@
 
 Bonjour {firstname} {lastname}, 
 
-Votre commande référence {order_name} a été modifiée. 
+Your order with the reference {order_name} has been modified. 
 
 Vous pouvez accéder à tout moment au suivi de votre commande et
 télécharger votre facture dans "Historique des commandes"
